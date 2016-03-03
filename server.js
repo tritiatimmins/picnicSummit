@@ -1,8 +1,8 @@
-//install modules ===========================
-var express = require('express');
-var app 	= express();
-var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
+//install modules ==========================
+var express 	= require('express');
+var app 		= express();
+var bodyParser 	= require('body-parser');
+var mongoose 	= require('mongoose');
 
 // require your model(s) here
 
@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.use(express.bodyParser())
 app.use(express.static(__dirname + '/public'));
 
-//app routes go here
+//app routes go here ========================
 
 
 //start server ==============================
