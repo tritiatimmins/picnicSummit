@@ -1,0 +1,28 @@
+{
+  "name": "bike_trader",
+  "description": "Greenfield project for Telegraph Academy",
+  "main": "index.js",
+  "authors": [
+    "picnicSummit"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/picnicSummit/picnicSummit",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "angular-mocks": "^1.5.0",
+    "jquery": "^2.2.1",
+    "bootstrap": "^3.3.6"
+  }
+}
